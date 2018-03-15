@@ -1,0 +1,43 @@
+body { font-family: 'Gotham XNarrow A', 'Gotham XNarrow B', sans-serif; color: #333; font-size: 18px; }
+h1, h2 { font-family: 'Hoefler Titling A', 'Hoefler Titling B', serif; color: #0D2240; }
+h1 { font-size: 2rem; }
+ul { margin-left: 2.25rem; }
+aside { background-color: #f5f5f5; padding: 20px 15px; }
+button { background-color: #00A1DF; padding: 10px; color: white; }
+footer { background-color: #CCC; }
+.ec-dropshadow { box-shadow: 0 0 20px rgba(0,0,0,0.25); }
+.ec-hero {
+	height: 450px;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: top center;
+	background-repeat: no-repeat;
+	padding-top: 50px; }
+.ec-flex-list { display: flex; }
+.ec-flex-center{ justify-content: center; }
+.medium-3 img { max-width: 125px; width: 100%; }
+#EC-Hero1 { background-image: url(../images/EC-Hero-Tailgate2.jpg); }
+	#EC-Hero1 img {
+		max-height: 350px; }
+#Gray-Border {
+	border-radius: 50%;
+	border: #CCC 1px solid; }
+#Margin-60 { margin-top: -60px; }
+#Margin-70 { margin-top: -70px; }
+/* Foundation mods */
+.top-bar {
+	background-color: white;
+	width:100%;
+	z-index: 2;
+	display: flex;
+	justify-content: center; }
+.top-bar-title img { max-height: 35px; }
+/* Responsive mods */
+.ec-mobile-only-center, .ec-mobile-only { display: none; }
+@media print, screen and (max-width: 40em) {
+	.ec-mobile-only-center { width: 100%; }
+		.ec-mobile-only-center img {
+			display: block;
+			margin: auto; }
+	#Margin-60, #Margin-70 { margin-top: 0; }
+}
