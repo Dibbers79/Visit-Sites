@@ -1,0 +1,25 @@
+/* Foundation mods */
+.grid-container { padding: 0 10px; }
+
+/* Custom */
+.ec-flex-center{ align-items: flex-start; }
+.ec-hero { padding-top: 100px; }
+#EC-Hero1 { background-image: url(../images/EC-Hero-BG-OpenHouse.jpg); }
+	#EC-Hero1 img {
+		max-width: 700px;
+		width: 100%; }
+
+/* Responsive Mods */
+.ec-mobile-only { display: none; }
+@media screen and (max-width: 740px) {
+	.ec-hero { background-attachment: scroll; }
+	#EC-Hero1 img { width: 90%; }
+	iframe, .ec-mobile-hide { display: none; }
+}
+@media screen and (max-width: 640px) {
+	.ec-hero { height: 250px; }
+	.ec-mobile-center { text-align: center; }
+	.ec-mobile-only { display: block; }
+	.ec-mobile-hide-small { display: none; }
+	.ec-hero { padding-top: 60px; }
+}
