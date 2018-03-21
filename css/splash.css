@@ -2,7 +2,7 @@ main {
         background-color: #0D2240;
         height: 450px;
         padding-top: 120px;
-        background-image: url(images/EC-Shield-flame.png);
+        background-image: url(../images/EC-Shield-flame.png);
         background-repeat-x: no-repeat; }
 a section {
         color: white;
